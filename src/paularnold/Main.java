@@ -27,49 +27,6 @@ public class Main {
         Service handstuff = new Service("Handstuff", "Lots of creme", 1.00);
 
 
-        //Versuch 1
-        /*
-        String xml = "";
-
-        StringWriter stringWriter = new StringWriter();
-        try {
-            JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
-            Marshaller marshaller = jaxbContext.createMarshaller();
-            marshaller.marshal(donaldTrump,stringWriter);
-             xml = stringWriter.toString();
-            System.out.println(xml);
-        } catch (JAXBException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            FopFactory fopFactory = FopFactory.newInstance(new File("./fop.xconf"));
-            OutputStream out = new BufferedOutputStream(new FileOutputStream(new File(("./test.pdf"))));
-
-            Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF,out);
-
-            TransformerFactory factory = TransformerFactory.newInstance();
-            Transformer transformer = factory.newTransformer();
-
-            Source src = new StreamSource( new ByteArrayInputStream(xml.getBytes()));
-
-            Result result = new SAXResult(fop.getDefaultHandler());
-
-            transformer.transform(src,result);
-
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (TransformerConfigurationException e) {
-            e.printStackTrace();
-        } catch (TransformerException e) {
-            e.printStackTrace();
-        }
-
-         */
-
-
         try {
 
             Document document = new Document(40, 50, 40, 60);
