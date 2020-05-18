@@ -34,8 +34,8 @@ public class Main {
         }
 
         try {
-            FopFactory fopFactory = FopFactory.newInstance(new File("C:/Speicher/Clouds/OneDrive - hochschule-stralsund.de/4_Semester/Mobile Systeme/Aufgaben/Code/creatingAPdf/src/paularnold/fop.xconf"));
-            OutputStream out = new BufferedOutputStream(new FileOutputStream(new File(("C:/Users/paulz/Downloads/test.pdf"))));
+            FopFactory fopFactory = FopFactory.newInstance(new File("./fop.xconf"));
+            OutputStream out = new BufferedOutputStream(new FileOutputStream(new File(("./test.pdf"))));
 
             Fop fop = fopFactory.newFop(MimeConstants.MIME_PDF,out);
 
