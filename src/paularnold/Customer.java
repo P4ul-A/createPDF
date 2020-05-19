@@ -1,10 +1,6 @@
 package paularnold;
 
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
 public class Customer {
 
     private int id;
@@ -39,7 +35,6 @@ public class Customer {
         this.bankNumber = bankNumber;
     }
 
-    @XmlAttribute
     public int getId() {
         return id;
     }
@@ -48,7 +43,7 @@ public class Customer {
         this.id = id;
     }
 
-    @XmlElement
+
     public String getFirstName() {
         return firstName;
     }
@@ -57,7 +52,6 @@ public class Customer {
         this.firstName = firstName;
     }
 
-    @XmlElement
     public String getLastName() {
         return lastName;
     }

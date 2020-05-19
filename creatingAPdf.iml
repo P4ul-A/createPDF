@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="pdfbox-app-2.0.19" level="project" />
     <orderEntry type="library" name="pdfbox2-layout-1.0.0" level="project" />
+    <orderEntry type="library" name="com.github.vandeseer:easytable:0.6.6" level="project" />
   </component>
 </module>

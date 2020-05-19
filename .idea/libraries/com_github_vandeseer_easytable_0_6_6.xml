@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="com.github.vandeseer:easytable:0.6.6" type="repository">
+    <properties maven-id="com.github.vandeseer:easytable:0.6.6" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/vandeseer/easytable/0.6.6/easytable-0.6.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.19/pdfbox-2.0.19.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.19/fontbox-2.0.19.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
